@@ -1,12 +1,3 @@
-.v-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%; /* Use vh for full viewport height */
-        background-color: #fff;
-    }
-  
 .v-line {
         width: 100%; /* Adjust the width as needed */
         height: 3px; /* Adjust the thickness of the line */
