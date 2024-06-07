@@ -1,3 +1,4 @@
+<style>
 .v-container {
         display: flex;
         flex-direction: column;
@@ -120,3 +121,4 @@
         color: #000;
         border: 1px solid #000;
     }
+</style>
