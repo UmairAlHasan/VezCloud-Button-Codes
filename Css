@@ -1,0 +1,122 @@
+.v-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Use vh for full viewport height */
+        background-color: #fff;
+    }
+  
+.v-line {
+        width: 100%; /* Adjust the width as needed */
+        height: 3px; /* Adjust the thickness of the line */
+        background: #bbb; /* Choose the color of the line */
+        margin: 15px;
+    }
+  
+.v-box {
+  background: #cad5ed;
+  color: #1c591f;
+  padding: 5px 30px; /* Adjust padding as needed */
+  margin-bottom: 10px;
+  border-radius: 5px; /* Optional: Adds rounded corners to the box */
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+  
+.v1-box {
+  background: #bae8df;
+  color: #1c2f59;
+  padding: 5px 27px; /* Adjust padding as needed */
+  border-radius: 5px; /* Optional: Adds rounded corners to the box */
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+    .v1-button {
+        padding: 3px 35px;
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        background: linear-gradient(to right, #00f260, #0575e6); 
+        cursor: pointer;
+        transition: background 0.3s ease;
+        display: inline-block;
+        text-align: center;
+        margin: 5px 0; /* Adds space between buttons */
+    }
+
+    .v1-button:hover {
+        background: #ccc;
+        color: #000;
+        border: 1px solid #000;
+    }
+  
+    .v2-button {
+        padding: 3px 18px;
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background: linear-gradient(to right, #ff512f, #f09819); 
+        cursor: pointer;
+        transition: background 0.3s ease;
+        display: inline-block;
+        text-align: center;
+        margin: 5px 0; /* Adds space between buttons */
+    }
+
+    .v2-button:hover {
+        background: #ccc;
+        color: #000;
+        border: 1px solid #000;
+    }
+  
+    .v3-button {
+        padding: 3px 32px;
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background: linear-gradient(to right, #6d6027, #d3cbb8);
+        cursor: pointer;
+        transition: background 0.3s ease;
+        display: inline-block;
+        text-align: center;
+        margin: 5px 0; /* Adds space between buttons */
+    }
+
+    .v3-button:hover {
+        background: #ccc;
+        color: #000;
+        border: 1px solid #000;
+    }
+  
+    .v4-button {
+        padding: 3px 39px;
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background: linear-gradient(to right, #1a2980, #26d0ce);
+        cursor: pointer;
+        transition: background 0.3s ease;
+        display: inline-block;
+        text-align: center;
+        margin: 5px 0; /* Adds space between buttons */
+    }
+
+    .v4-button:hover {
+        background: #ccc;
+        color: #000;
+        border: 1px solid #000;
+    }
